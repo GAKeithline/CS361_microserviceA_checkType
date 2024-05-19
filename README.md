@@ -25,3 +25,12 @@ To request data, simply call check_type(data) where 'data' is a correctly format
 
 ## Receive Data
 data is automically received and returned by the check_type() function. No user action after the funciton call is necessary to receive data.
+
+## Example
+Here are some examples of correctly formatted check_type() calls and their returns:
+
+data = [{'inputType': 'string', 'inputValue': 'string cheese'}, {'inputType': 'integer', 'inputValue': 6}, {'inputType': 'boolean', 'inputValue': True}]<br/>
+'> check_type(data)' would return {'validated': True, 'error': None}
+
+data = [{'inputType': 'string', 'inputValue': 14}, {'inputType': 'integer', 'inputValue': 6}]
+'> check_type(data)' would return {'validated': False, 'error': '14 is not type: string'}
