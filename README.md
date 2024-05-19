@@ -28,7 +28,8 @@ To request data, simply call check_type(data) where 'data' is a correctly format
 data is automically received and returned by the check_type() function. No user action after the funciton call is necessary to receive data.
 
 ## UML Diagram
-![image](https://github.com/GAKeithline/CS361_microserviceA_checkType/assets/137833914/03b03be7-176e-4220-8afa-ba5416f8e83b)
+![Screenshot 2024-05-19 152542](https://github.com/GAKeithline/CS361_microserviceA_checkType/assets/137833914/8728ce9a-33af-47a2-bb16-71ff626744a0)
+
 
 
 ## Example
