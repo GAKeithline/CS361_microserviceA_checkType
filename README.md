@@ -32,5 +32,5 @@ Here are some examples of correctly formatted check_type() calls and their retur
 data = [{'inputType': 'string', 'inputValue': 'string cheese'}, {'inputType': 'integer', 'inputValue': 6}, {'inputType': 'boolean', 'inputValue': True}]<br/>
 '> check_type(data)' would return {'validated': True, 'error': None}
 
-data = [{'inputType': 'string', 'inputValue': 14}, {'inputType': 'integer', 'inputValue': 6}]
+data = [{'inputType': 'string', 'inputValue': 14}, {'inputType': 'integer', 'inputValue': 6}]<br/>
 '> check_type(data)' would return {'validated': False, 'error': '14 is not type: string'}
